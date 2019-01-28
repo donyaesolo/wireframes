@@ -1,0 +1,89 @@
+/* Make sure you specify a "height: 100vh", "width: 100vw", and "margin: 0" for all your pages */
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	display: flex;
+	overflow-y: hidden;
+}
+
+@font-face{
+	font-family: pupper;
+	src: url(font/pupper.ttf);
+}
+
+h1{
+	font-family: pupper;
+}
+/* Div Classes */
+.blockb{
+	display: block;
+	height: calc(100%/3);
+	width:100%;
+}
+.big-column {
+	height: 100%;
+	width: 33%;
+
+}
+.block{
+	display: block;
+	width:100%;
+}
+.mini-div{
+	height: 50%;
+	width: 100%;
+}
+.flex{
+	display: flex;
+}
+.half-div{
+	height: 50%;
+	width: 50%;
+}
+.mini-half-flex{
+ diplay: flex;
+}
+.mini-flex{
+	display: flex;
+}
+.mini-half-div{
+	height: 50%;
+	width: 100%;
+}
+
+/* Colors */
+.blue {
+	background-color: #77A3CE;
+}
+
+.pink {
+	background-color: #E58497;
+}
+.green {
+	background-color: #B2E569;
+}
+.yellow{
+	background-color: #FAF46D;
+}
+.orange{
+	background-color: #EBA84D;
+}
+
+/* Use this class on the PARENT of whatever you are trying to center; remember that the PARENT tells the CHILD what to do! */
+/* NOTE: Centering content only works when the display property is "flex"! */
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Use this class on your image to restrict the size so it stays completely within it's parent div */
+.big-restrict{
+	max-height: 100%;
+	max-width: 100%;
+}
+.restrict-img-size {
+	max-height: 100%;
+	max-width: 100%;
+}
